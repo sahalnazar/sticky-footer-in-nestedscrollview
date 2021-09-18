@@ -8,10 +8,10 @@ import io.github.sahalnazar.stickyfooter.databinding.ActivityMainBinding
 import io.github.sahalnazar.stickyfooter.utils.ExtensionFunctions.getViewBinding
 import io.github.sahalnazar.stickyfooter.utils.ExtensionFunctions.isViewVisible
 
-private lateinit var binding: ActivityMainBinding
-private var counter = 0
-
 class MainActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityMainBinding
+    private var counter = 0
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = getViewBinding(R.layout.activity_main)
